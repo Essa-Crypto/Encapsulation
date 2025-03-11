@@ -3,7 +3,7 @@ class Computer:
         self.__maxprice = 900
 
     def sell(self):
-        print("Selling Price: {}".fromat(self.__maxprice))
+        print("Selling Price: {}".format(self.__maxprice))
 
     def setMaxPrice(self, price):
         self.__maxprice = price
@@ -14,5 +14,5 @@ c.sell()
 c.__maxprice = 1000
 c.sell()
 
-c.setMaxprice(1000)
+c.setMaxPrice(1000)
 c.sell()
