@@ -1,5 +1,5 @@
 class myClass:
-    __priveateVar = 27;
+    __privateVar = 27;
     def __priveMeth(self):
         print("I'm inside class myClass")
 
